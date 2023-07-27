@@ -45,4 +45,25 @@ npm install
 node index.js
 ```
 
-You can copy and save this content as a .md file (e.g., "README.md") on your local machine. Then, you can upload this "README.md" file to your GitHub repository to serve as the main README documentation for your Excel-to-API project. When uploaded, GitHub will automatically render the Markdown content, displaying it with proper formatting, including headers, tables of contents, and lists.
+# API Endpoint
+
+Before running the script, make sure your API endpoint is up and running to receive the city names as JSON data via POST requests. The script will send each city name individually as a separate API request.
+
+# Excel File Format
+
+The Excel file should be in .xlsx format and contain the city names in the first column (column A) of the first worksheet. Make sure there are no empty cells or additional data in the column.
+
+# Dependencies
+
+This project uses the following dependencies:
+
+- axios: "^0.24.0"
+- exceljs: "^4.3.0"
+
+# Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
+
+# License
+
+This project is not licensed.
